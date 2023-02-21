@@ -1,5 +1,5 @@
 import RecipeList from './RecipeList';
-import useFetch from './useFetch';
+import useFetch from '../hooks/useFetch';
 
 const Home = () => {
   const { data: recipes, isLoading, error } = useFetch('http://localhost:8000/recipes');
