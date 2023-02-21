@@ -1,0 +1,28 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Lasagna Soup",
+      "content": "Minus, saepe, veritatis. Amet animi commodi cum cupiditate dolore dolorum eveniet facilis, minima nobis voluptatem. Animi hic nulla optio? Nisi, quod, vitae!",
+      "author": "Mark Twain"
+    },
+    {
+      "id": 2,
+      "title": "Air Fryer Chicken Wings",
+      "content": "Amet animi commodi cum cupiditate dolore dolorum eveniet facilis, minima nobis voluptatem. Animi hic nulla optio? Nisi, quod, vitae!",
+      "author": "Stephanie James"
+    },
+    {
+      "id": 3,
+      "title": "Sushi Bake",
+      "content": "Animi hic nulla optio? Amet animi commodi cum cupiditate dolore dolorum eveniet facilis, minima nobis voluptatem. Animi hic nulla optio? Nisi, quod, vitae!",
+      "author": "Adam Kennedy"
+    },
+    {
+      "id": 4,
+      "title": "Apple Cake",
+      "content": "Animi hic nulla optio? Nisi, quod, vitae! Amet animi commodi cum cupiditate dolore dolorum eveniet facilis, minima nobis voluptatem.",
+      "author": "Joe Leng"
+    }
+  ]
+}
