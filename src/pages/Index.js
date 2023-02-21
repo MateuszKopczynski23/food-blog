@@ -1,7 +1,7 @@
-import RecipeList from './RecipeList';
+import RecipeList from '../components/RecipeList';
 import useFetch from '../hooks/useFetch';
 
-const Home = () => {
+const Index = () => {
   const { data: recipes, isLoading, error } = useFetch('http://localhost:8000/recipes');
 
   return (
@@ -13,4 +13,4 @@ const Home = () => {
   );
 }
 
-export default Home;
+export default Index;

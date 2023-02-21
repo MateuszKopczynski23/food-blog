@@ -52,3 +52,6 @@
   color: #f1356d;
   margin-bottom: 8px;
 }
+.recipe-preview a {
+  text-decoration: none;
+}

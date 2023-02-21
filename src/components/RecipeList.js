@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 const RecipeList = ({ recipes, title }) => {
   return (
       <div className="recipe-list">
@@ -8,8 +10,10 @@ const RecipeList = ({ recipes, title }) => {
                 key={recipe.id}
                 className="recipe-preview"
             >
-              <h2>{ recipe.title }</h2>
-              <p>Written by { recipe.author }</p>
+              <Link to={`/recipes/${recipe.id}`}>
+                <h2>{ recipe.title }</h2>
+                <p>Written by { recipe.author }</p>
+              </Link>
             </div>
         ))}
       </div>
