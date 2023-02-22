@@ -17,15 +17,14 @@ const useFetch = (url) => {
         })
         .then(data => {
           setData(data);
-          setIsLoading(false);
           setError(null);
         })
         .catch((error) => {
           if (error.name === 'AbortError') return;
 
           setError(error.message);
-          setIsLoading(false);
         })
+        .finally(() => setIsLoading(false))
     }, 500);
 
     return () => abortController.abort();
