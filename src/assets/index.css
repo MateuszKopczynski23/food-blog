@@ -21,6 +21,9 @@
   margin-left: auto;
 }
 .navbar a {
+  text-decoration: none;
+}
+.navbar div > a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
@@ -104,4 +107,17 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+  margin-top: 10px;
+}
+
+/* not found page */
+.not-found h2 {
+  margin-bottom: 10px;
+}
+.not-found p {
+  margin-bottom: 8px;
+}
+.not-found a {
+  color: #f1356d;
+  text-decoration: none;
 }
