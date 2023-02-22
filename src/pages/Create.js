@@ -50,6 +50,7 @@ const Create = () => {
           <textarea
               ref={contentRef}
               id="content"
+              rows="5"
               required
           ></textarea>
 
